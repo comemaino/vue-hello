@@ -10,5 +10,11 @@ const app = new Vue({
     title: "title from data",
     image:
       "https://static2-viaggi.corriereobjects.it/wp-content/uploads/2020/02/9-1-1080x723.jpg?v=368099",
+    number: 1,
+  },
+  methods: {
+    increase: function () {
+      this.number++;
+    },
   },
 });
